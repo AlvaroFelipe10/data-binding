@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-data-binding',
   templateUrl: './data-binding.component.html',
@@ -13,7 +14,10 @@ export class DataBindingComponent implements OnInit {
   valorAtual: String = '';
   valorSalvo: String = '';
 
+
   isMouseOver: boolean = false;
+
+  nomeDoCurso: string = 'Angular';
 
   getValor(){
     return 1;
